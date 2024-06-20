@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: #000000;
+    font-size: 1.6rem;
+}
+
+.container-buttons {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+button {
+    background: #79cb15;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+}
+
+img {
+    width: 20rem;
+}
