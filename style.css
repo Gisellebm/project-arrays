@@ -31,6 +31,7 @@ button {
     font-size: 1.6rem;
     font-weight: 600;
     cursor: pointer;
+    width: 13rem;
 }
 
 button:hover {
@@ -41,8 +42,26 @@ ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 20rem);
+    gap: 2rem;
+    justify-content: center;
+}
+
+li {
+    border: 2px solid #8133ff;
+    border-radius: 0.5rem;
+    padding: .5rem;
 }
 
 img {
-    width: 20rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+p {
+    color: #ffffff;
+}
+
+.item-price {
+    color: #79cb15;
+    font-weight: 600;
 }
